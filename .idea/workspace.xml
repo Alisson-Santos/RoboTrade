@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3d7fc96-182b-4101-9351-5df001a0a655" name="Changes" comment="" />
+    <list default="true" id="a3d7fc96-182b-4101-9351-5df001a0a655" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Andromeda_2.7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/Readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/AndromedaAndromeda_2.0_Compra_e_Venda.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/AndromedaCompra1.1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/AndromedaCompra1.1.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/Andromeda_2.0_Compra_e_Venda.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/Andromeda_2.1_Compra_e_Venda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/Andromeda_2.1_Compra_e_Venda.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/Andromeda_2.2_Compra_e_Venda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/Andromeda_2.3_Compra_e_Venda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/Andromeda_2.4_Compra_e_Venda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/Andromeda_2.4_Compra_e_Venda.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/Andromeda_2.5_Compra_e_Venda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda 2/Andromeda_2.5_Compra_e_Venda.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/AndromedaCompra.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/AndromedaVenda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/AndromedaVenda.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/AndromedaVenda1.1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/AndromedaVenda1.1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/AndromedaVenda1.1.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda_2.6_Compra_e_Venda.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda_2.6_Stops_Diarios.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes/Andromeda_2.6_Stops_Diarios.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Andromeda_2.6_Stops_Diarios - Copia.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Andromeda_2.6_Stops_Diarios.exe" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -15,13 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/aliss/PycharmProjects/RobotradeAndromeda 2.0/Andromeda_2.0_Compra_e_Venda.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aliss/PycharmProjects/RobotradeAndromeda 2.0/Andromeda_2.0_Compra_e_Venda.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\aliss\PycharmProjects\RobotradeAndromeda 1.0" />
