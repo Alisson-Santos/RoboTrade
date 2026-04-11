@@ -1,0 +1,45 @@
+
+
+
+
+Na versão 2.1 foi separado as funções de compra e venda de dentro da estratégia 
+
+adiocionado as funções de 
+Martelo 
+Estrela cadente
+
+Foi também ser
+Na v
+Atualizações 2.7
+
+1 - Foi adicionado a função de comprar quando tiver martelo
+
+2 - Foi adicionado a função de vender quando tiver estrela cadente
+
+
+Atualizações 2.8
+
+1 - atualizar a cada segundo o horário a cada segundo antes de abrir o mercado para abrir junto
+
+2 - Atualizar entrada de estrala cadente e martelo, zerando a posição, caso tenha aberta e execute a ordem depois
+
+3 - Foi adicionada a função "fechar_ordens" para encerrar as ordens abertas para mandar novas.
+
+4 - Alterado o texto da aba da janela
+
+5 -
+
+
+
+Ainda vou adicionar.
+
+Mudar hora de operação na interface
+
+medir distancia das média e não comprar se for muito grande (tamanho 200 pontos a princípio )
+    preço de tela < media rápida em 200 pontos.
+        martelo
+        estrela
+        média
+    else
+        preço alto demais
+
