@@ -15,11 +15,17 @@ import traceback # Importado para capturar trilhas de erro completas
 global mt5_conectado
 mt5_conectado = mt5.initialize()
 
-if not mt5_conectado:
+if not mt5_conectado: #se não estiver conectado
     print("ERRO CRÍTICO: MetaTrader 5 não inicializado. Verifique a instalação e o terminal.")
-    # Não usamos exit() para permitir que a janela Tkinter seja criada
+    
 else:
     print("MetaTrader 5 inicializado com sucesso.")
+
+
+    
+#------------------------------------------------------------------
+#                  Status de posição e preço
+#------------------------------------------------------------------
 
 # Variável global para controlar o estado da estratégia (iniciada ou pausada)
 estrategia_ativa = False
@@ -42,29 +48,36 @@ root.title("Robo Trader - Andromeda 3.7")
 def criar_interface_parametros():
     # Frame para organizar os parâmetros
     frame_parametros = tk.Frame(root)
-    # Pack the frame with fill and expand so it resizes with the window
+    
+    # Empacota o frame com preenchimento (fill) e expansão para que ele redimensione com a janela
     frame_parametros.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 
-    # Configure columns in frame_parametros to expand proportionally
+    # Configura as colunas no frame_parametros para expandirem proporcionalmente
     frame_parametros.grid_columnconfigure(0, weight=1)
     frame_parametros.grid_columnconfigure(1, weight=1)
     frame_parametros.grid_columnconfigure(2, weight=1)
     frame_parametros.grid_columnconfigure(3, weight=1)
 
-    # Configure some rows to expand, especially those with entries
-    # Loop through a reasonable number of rows, ensuring they can expand
-    for i in range(1, 18): # Assuming max 17 rows for parameters + header
+    # Configura algumas linhas para expandir, especialmente aquelas com campos de entrada (entries)
+    # Percorre um número razoável de linhas, garantindo que elas possam expandir
+    for i in range(1, 18): # Assumindo no máximo 17 linhas para parâmetros + cabeçalho
         frame_parametros.grid_rowconfigure(i, weight=1)
 
 
-    # Título da seção de parâmetros
+        
+    #------------------------------------------------------------------
+    #                Título da seção de parâmetros
+    #------------------------------------------------------------------
     tk.Label(frame_parametros, text="Parâmetros de Operação", font=("Arial", 14, "bold")).grid(row=0, column=0, columnspan=4, pady=5, sticky="nsew")
 
+    
     # Dicionário para armazenar os campos de entrada
-    global entries
-    entries = {}
+    global entries #Primeiro declaro o nome da variavel global
+    entries = {} #depois declaro só a váriavel e o que ela vai armazenar
 
-    # Parâmetros e seus valores padrão
+    #------------------------------------------------------------------
+    #               Parâmetros e seus valores padrão
+    #------------------------------------------------------------------    
     parametros = {
         "Ativo a Operar": "WINJ26",
         "Contratos": 1.0,
@@ -74,6 +87,8 @@ def criar_interface_parametros():
         "Stop Loss (Operação em pontos)": 125,
         "Stop Gain (Dia)": 100.0, # Mudado para float para consistência com lucro
         "Stop Loss (Dia)": -60.0, # Mudado para float para consistência com lucro
+
+        
         "Acionar Novo Stop (pontos)": 125,
         "Novo Stop Gain (pontos)": 125,
         "Novo Stop Loss (pontos)": 100,
